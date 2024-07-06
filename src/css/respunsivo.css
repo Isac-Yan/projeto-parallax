@@ -54,21 +54,24 @@
     }
 
     main .imagem {
-        height: 50vh;
+        height: 75vh;
         background-size: cover;
         background-attachment: fixed;
     }
 
     main #img-1 {
         background-image: url("../img/ciclismo-01-pequeno.jpg");
+        background-position: left center;
     }
 
     main #img-2 {
         background-image: url("../img/ciclismo-02-pequeno.jpg");
+        background-position: right center;
     }
 
     main #img-3 {
         background-image: url("../img/esporte-na-neve-01.jpg");
+        background-position: right center;
     }
 
     main #img-4 {
