@@ -61,26 +61,27 @@
 
     main #img-1 {
         background-image: url("../img/ciclismo-01-pequeno.jpg");
-        background-position: left center;
+        background-position: center center;
     }
 
     main #img-2 {
         background-image: url("../img/ciclismo-02-pequeno.jpg");
-        background-position: right center;
+        background-position: center center;
     }
 
     main #img-3 {
         background-image: url("../img/esporte-na-neve-01.jpg");
-        background-position: right center;
+        background-position: center center;
     }
 
     main #img-4 {
         background-image: url("../img/esporte-na-neve-02.jpg");
-
+        background-position: center center;
     }
 
     main #img-5 {
         background-image: url("../img/esporte-na-neve-03.jpg");
+        background-position: right bottom;
     }
 
     footer p {
