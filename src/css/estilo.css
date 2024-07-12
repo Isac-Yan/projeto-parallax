@@ -8,18 +8,22 @@
     font-size: medium
 }
 
+:root {
+    --cor1: #3B3936;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 html, body {
-    background-color: black;
+    background-color: var(--cor1);
 }
 
 header {
     padding: 60px 0px;
-    background-image: linear-gradient(to bottom, #292929, #3d3d3d);
+    background-image: linear-gradient(to bottom, #022424, #181818);
     color: white;
     text-align: center;
 }
@@ -33,26 +37,36 @@ header h1 {
 
 header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     max-width: 700px;
     display: block;
     margin: auto;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-main #descricao {
-    background-image: linear-gradient(to bottom, #3d3d3d, #292929);
-    color: white;
-    font-family: "Source Code Pro", monospace;
+#inicio-texto {
+    text-align: start;
+    background-color: #f7f6f6;
+}
+
+#inicio-texto > .primeiro {
+    padding-top: 40px;
+}
+
+#inicio-texto > .ultimo {
+    padding-bottom: 40px;
+}
+
+#inicio-texto > p {
+    color: black;
+    max-width: 850px;
     display: block;
     margin: auto;
-    padding: 40px 60px;
-    font-size: 1.4em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    padding: 5px 25px;
 }
 
 main section h2 {
-    background-image: linear-gradient(to right, #1b1b1b 20%, #424242);
     font-family: "principal";
     font-size: 2em;
     padding: 10px;
@@ -61,16 +75,21 @@ main section h2 {
 }
 
 main section p {
-    padding-bottom: 40px;
+    padding-top: 5px;
+    color: black
 }
 
 main .texto {
-    background-color: rgba(63, 63, 63, 0.747);
+    background-color: #F2F2F2;
     padding: 40px 60px;
     color: white;
-    font-size: 1.1em;
-    font-family: "Source Code Pro", monospace;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.paragrafo {
+    padding: 20px 40px 2px 40px;
 }
 
 main .imagem {
@@ -84,13 +103,53 @@ main #img-1 {
     background-position: center center;
 }
 
+main #img-1 p {
+    background-color: #86AD2E;
+    color: white;
+    display: inline;
+    margin: 20px 10px;
+    padding: 30px;
+    border-radius: 40% 40% 0px 40%;
+    border: 2px solid #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
 main #img-2 {
     background-image: url("../img/ciclismo-02.jpg");
     background-position: bottom center;
 }
 
+main #img-2 p {
+    background-color: #DE822D;
+    color: white;
+    display: inline;
+    margin: 20px 10px;
+    padding: 30px;
+    border-radius: 40% 40% 0px 40%;
+    border: 2px solid #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    
+}
+
 main #img-3 {
     background-image: url("../img/esporte-na-neve-01-grande.jpg");
+}
+
+main #img-3 p {
+    background-color: #71859E;
+    color: white;
+    display: inline;
+    margin: 20px 10px;
+    padding: 30px;
+    border-radius: 40% 40% 0px 40%;
+    border: 2px solid #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
 }
 
 main #img-4 {
@@ -98,14 +157,58 @@ main #img-4 {
     background-position: top center;
 }
 
+main #img-4 p {
+    background-color: #931314;
+    color: white;
+    display: inline;
+    margin: 20px 10px;
+    padding: 30px;
+    border-radius: 40% 40% 0px 40%;
+    border: 2px solid #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
 main #img-5 {
     background-image: url("../img/esporte-na-neve-03-grande.jpg");
     background-position: center center;
 }
 
+main #img-5 p {
+    background-color: #00476A;
+    color: white;
+    display: inline;
+    margin: 20px 10px;
+    padding: 30px;
+    border-radius: 40% 40% 0px 40%;
+    border: 2px solid #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+#ciclismo-1 {
+    background-image: linear-gradient(to right, #86AD2E 20%, #fff6f6 );
+}
+
+#ciclismo-2 {
+    background-image: linear-gradient(to right, #DE822D 20%, #fff6f6 );
+}
+
+#neve-1 {
+    background-image: linear-gradient(to right,  #71859E 20%, #fff6f6 );
+}
+#neve-2 {
+    background-image: linear-gradient(to right, #931314 20%, #fff6f6 );
+}
+#neve-3 {
+    background-image: linear-gradient(to right, #00476A 20%, #fff6f6 );
+}
+
 footer {
     text-align: center;
-    background-color: black;
+    background-color: var(--cor1);
     padding: 10px;
     color: white;
 }
