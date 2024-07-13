@@ -48,15 +48,15 @@ header p {
     background-color: #f7f6f6;
 }
 
-#inicio-texto > .primeiro {
+#inicio-texto>.primeiro {
     padding-top: 40px;
 }
 
-#inicio-texto > .ultimo {
+#inicio-texto>.ultimo {
     padding-bottom: 40px;
 }
 
-#inicio-texto > p {
+#inicio-texto>p {
     color: black;
     max-width: 850px;
     display: block;
@@ -75,11 +75,10 @@ main section h2 {
 
 main section p {
     padding-top: 5px;
-    color: black
 }
 
 main .texto {
-    background-color: #F2F2F2;
+    background-color: #a0a0a0;
     padding: 40px 60px;
     color: white;
     font-size: 1.3em;
@@ -97,6 +96,7 @@ main .imagem {
     background-attachment: fixed;
 }
 
+
 main #img-1 {
     background-image: url("../img/ciclismo-01.jpg");
     background-position: center center;
@@ -109,10 +109,17 @@ main #img-1 p {
     margin: 20px 10px;
     padding: 30px;
     border-radius: 40% 40% 0px 40%;
-    border: 2px solid #F2F2F2;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 3em;
+}
+
+main #img-1 p:hover {
+    background-color: #EC5EF2;
+    border-radius: 50%;
+    transition: 1s, border 0.5s;
+    transition-delay: 0.2;
+    border: 3px solid #ffffff;
 }
 
 main #img-2 {
@@ -127,11 +134,17 @@ main #img-2 p {
     margin: 20px 10px;
     padding: 30px;
     border-radius: 40% 40% 0px 40%;
-    border: 2px solid #F2F2F2;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 3em;
-    
+}
+
+main #img-2 p:hover {
+    background-color: #30C8F0;
+    border-radius: 50%;
+    transition: 1s, border 0.5s;
+    transition-delay: 0.2;
+    border: 3px solid #ffffff;
 }
 
 main #img-3 {
@@ -145,10 +158,17 @@ main #img-3 p {
     margin: 20px 10px;
     padding: 30px;
     border-radius: 40% 40% 0px 40%;
-    border: 2px solid #F2F2F2;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 3em;
+}
+
+main #img-3 p:hover {
+    background-color: #F0AC30;
+    border-radius: 50%;
+    transition: 1s, border 0.5s;
+    transition-delay: 0.2;
+    border: 3px solid #ffffff;
 }
 
 main #img-4 {
@@ -163,10 +183,17 @@ main #img-4 p {
     margin: 20px 10px;
     padding: 30px;
     border-radius: 40% 40% 0px 40%;
-    border: 2px solid #F2F2F2;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 3em;
+}
+
+main #img-4 p:hover {
+    background-color: #30F066;
+    border-radius: 50%;
+    transition: 1s, border 0.5s;
+    transition-delay: 0.2;
+    border: 3px solid #ffffff;
 }
 
 main #img-5 {
@@ -181,28 +208,37 @@ main #img-5 p {
     margin: 20px 10px;
     padding: 30px;
     border-radius: 40% 40% 0px 40%;
-    border: 2px solid #F2F2F2;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 3em;
 }
 
+main #img-5 p:hover {
+    background-color: #F09A30;
+    border-radius: 50%;
+    transition: 1s, border 0.5s;
+    transition-delay: 0.2;
+    border: 3px solid #ffffff;
+}
+
 #ciclismo-1 {
-    background-image: linear-gradient(to right, #86AD2E 20%, #fff6f6 );
+    background-image: linear-gradient(to right, #86AD2E 20%, #fff6f6);
 }
 
 #ciclismo-2 {
-    background-image: linear-gradient(to right, #DE822D 20%, #fff6f6 );
+    background-image: linear-gradient(to right, #DE822D 20%, #fff6f6);
 }
 
 #neve-1 {
-    background-image: linear-gradient(to right,  #71859E 20%, #fff6f6 );
+    background-image: linear-gradient(to right, #71859E 20%, #fff6f6);
 }
+
 #neve-2 {
-    background-image: linear-gradient(to right, #931314 20%, #fff6f6 );
+    background-image: linear-gradient(to right, #931314 20%, #fff6f6);
 }
+
 #neve-3 {
-    background-image: linear-gradient(to right, #00476A 20%, #fff6f6 );
+    background-image: linear-gradient(to right, #00476A 20%, #fff6f6);
 }
 
 footer {
